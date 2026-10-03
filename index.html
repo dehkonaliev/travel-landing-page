@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>JasuR TraveL — Find Your Next Adventure</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="#top">JasuR<span>Travel</span> 🌍</a><ul><li><a href="#tours">Tours</a></li><li><a href="#why">Why us</a></li><li><a href="#contact">Contact</a></li></ul></div></nav>
+
+<header class="hero" id="top">
+  <div class="hero-img"></div>
+  <div class="hero-t">
+    <h1>Explore the world,<br><em>one trip at a time</em></h1>
+    <p>Hand-picked tour packages to 10+ unforgettable destinations — at prices that fit your journey.</p>
+    <a href="#tours" class="btn">Find my tour →</a>
+  </div>
+</header>
+
+<div class="wrap tours" id="tours" style="padding-top:60px">
+  <h2>Popular tour packages</h2><p class="sub">Pick a region and your budget.</p>
+  <div class="filters">
+    <div class="chips">
+    <input type="radio" name="r" id="r-all" checked><label class="chip" for="r-all">All regions</label>
+    <input type="radio" name="r" id="r-eu"><label class="chip" for="r-eu">Europe</label>
+    <input type="radio" name="r" id="r-as"><label class="chip" for="r-as">Asia</label>
+    <input type="radio" name="r" id="r-af"><label class="chip" for="r-af">Africa</label>
+    <input type="radio" name="r" id="r-am"><label class="chip" for="r-am">Americas</label>
+    </div>
+    <div class="chips">
+    <input type="radio" name="p" id="p-any" checked><label class="chip" for="p-any">Any price</label>
+    <input type="radio" name="p" id="p-1"><label class="chip" for="p-1">Under $1000</label>
+    <input type="radio" name="p" id="p-2"><label class="chip" for="p-2">Under $1500</label>
+    <input type="radio" name="p" id="p-3"><label class="chip" for="p-3">Under $2000</label>
+    </div>
+  </div>
+  <div class="grid">
+    <article class="card eu u2 u3"><div class="art"><img src="images/paris.jpg" alt="Paris, France" loading="lazy" decoding="async"><b class="tag">Romantic</b></div><div class="body"><h3>Paris, France</h3><p class="meta">📍 Europe · 🗓️ 6 days · ⭐ 4.7</p><div class="row"><div class="price">$1290 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+    <article class="card eu u2 u3"><div class="art"><img src="images/greece.jpg" alt="Santorini, Greece" loading="lazy" decoding="async"><b class="tag">Island</b></div><div class="body"><h3>Santorini, Greece</h3><p class="meta">📍 Europe · 🗓️ 7 days · ⭐ 4.8</p><div class="row"><div class="price">$1490 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+    <article class="card as u3"><div class="art"><img src="images/paris.jpg" alt="Kyoto, Japan" loading="lazy" decoding="async"><b class="tag">Culture</b></div><div class="body"><h3>Kyoto, Japan</h3><p class="meta">📍 Asia · 🗓️ 9 days · ⭐ 4.7</p><div class="row"><div class="price">$1890 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+    <article class="card as u1 u2 u3"><div class="art"><img src="images/bali.png" alt="Bali, Indonesia" loading="lazy" decoding="async"><b class="tag">Beach</b></div><div class="body"><h3>Bali, Indonesia</h3><p class="meta">📍 Asia · 🗓️ 8 days · ⭐ 4.9</p><div class="row"><div class="price">$990 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+    <article class="card as u1 u2 u3"><div class="art"><img src="images/samarkand.jpg" alt="Samarkand, Uzbekistan" loading="lazy" decoding="async"><b class="tag">History</b></div><div class="body"><h3>Samarkand, Uzbekistan</h3><p class="meta">📍 Asia · 🗓️ 5 days · ⭐ 4.9</p><div class="row"><div class="price">$690 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+    <article class="card as u2 u3"><div class="art"><img src="images/dubai.png" alt="Dubai, UAE" loading="lazy" decoding="async"><b class="tag">Luxury</b></div><div class="body"><h3>Dubai, UAE</h3><p class="meta">📍 Asia · 🗓️ 5 days · ⭐ 4.9</p><div class="row"><div class="price">$1190 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+    <article class="card af u1 u2 u3"><div class="art"><img src="images/marakech.png" alt="Marrakech, Morocco" loading="lazy" decoding="async"><b class="tag">Desert</b></div><div class="body"><h3>Marrakech, Morocco</h3><p class="meta">📍 Africa · 🗓️ 6 days · ⭐ 4.7</p><div class="row"><div class="price">$840 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+    <article class="card af u3"><div class="art"><img src="images/cape town.png" alt="Cape Town, South Africa" loading="lazy" decoding="async"><b class="tag">Safari</b></div><div class="body"><h3>Cape Town, South Africa</h3><p class="meta">📍 Africa · 🗓️ 10 days · ⭐ 4.8</p><div class="row"><div class="price">$1790 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+    <article class="card am "><div class="art"><img src="images/mach picchu.png" alt="Machu Picchu, Peru" loading="lazy" decoding="async"><b class="tag">Adventure</b></div><div class="body"><h3>Machu Picchu, Peru</h3><p class="meta">📍 Americas · 🗓️ 9 days · ⭐ 4.7</p><div class="row"><div class="price">$2190 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+    <article class="card am u3"><div class="art"><img src="images/new york.png" alt="New York, USA" loading="lazy" decoding="async"><b class="tag">City</b></div><div class="body"><h3>New York, USA</h3><p class="meta">📍 Americas · 🗓️ 6 days · ⭐ 4.7</p><div class="row"><div class="price">$1650 <small>/person</small></div><a class="book" href="#contact">Book</a></div></div></article>
+  </div>
+</div>
+
+<div class="band" style="margin-top:80px">
+  <h2>Summer deals up to 25% off</h2><p>Book before the season peaks and lock in the best price on flights, hotels and guided tours.</p><a href="#tours" class="btn">Browse deals</a></div>
+
+<section id="why"><div class="wrap">
+  <h2>Why travel with JasuR Travel?</h2><p class="sub">Everything handled, so you just enjoy the trip.</p>
+  <div class="feat">
+    <div class="f"><i>💎</i><h3>Best price</h3><p>Transparent packages with no hidden fees.</p></div>
+    <div class="f"><i>🧭</i><h3>Expert guides</h3><p>Local professionals on every tour.</p></div>
+    <div class="f"><i>🛡️</i><h3>Safe &amp; flexible</h3><p>Free changes up to 14 days before departure.</p></div>
+    <div class="f"><i>💬</i><h3>24/7 support</h3><p>Real people, any time zone.</p></div>
+  </div>
+  <div class="stats"><div><b>10</b><span>Destinations</span></div><div><b>25,000</b><span>Happy travelers</span></div><div><b>120</b><span>Expert guides</span></div><div><b>4.9</b><span>Avg rating</span></div></div>
+</div></section>
+
+<footer id="contact"><div class="wrap">
+  <div class="fg"><div><a class="logo" href="#top" style="color:#fff;display:inline">JasuR<span>TraveL</span> 🌍</a><p style="max-width:280px;margin-top:8px">Your gateway to extraordinary journeys around the world.</p></div>
+  <div><h4>Explore</h4><a href="#tours">Tours</a><a href="#why">Why us</a></div>
+  <div><h4>Contact</h4><a href="mailto:hello@bigglobe.com">askarovjasurbek2004@gmail.com</a><a href="#">+998 94 981 29 39</a></div></div>
+  <div class="copy">© 2026 BigGlobe. All rights reserved. · Created by <strong>[Jasurbek]</strong></div>
+</div></footer>
+</body>
+</html>
